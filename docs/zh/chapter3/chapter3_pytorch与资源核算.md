@@ -42,6 +42,7 @@ $$6 \times (70 \times 10^9) \times (15 \times 10^{12}) \approx 6.3 \times 10^{24
 
 <!-- <div align="center">
    <img width="800" height="500"alt="1" src="https://raw.githubusercontent.com/datawhalechina/diy-llm/main/docs/zh/chapter3/images/3-2-H100性能明细.png" />
+
    <p>图3.2 H100 性能明细</p>
  </div> -->
 
@@ -593,7 +594,7 @@ assert x.device == torch.device("cpu")
         ```
         z = torch.zeros(32, 32, device="cuda:0") # 在GPU上直接创建一个32x32的零矩阵
         ```
-    这种方法更高效，因为它避免了先在CPU创建再移动的过程。
+        这种方法更高效，因为它避免了先在CPU创建再移动的过程。
 
 
 
@@ -1363,7 +1364,7 @@ with torch.amp.autocast("cuda", dtype=torch.bfloat16):
    <img src="https://raw.githubusercontent.com/datawhalechina/diy-llm/main/docs/zh/chapter3/images/3-12-compute-memory.png" />
    <p>图3.12 计算与内存</p>
  </div>
- 
+
 Percy 画了一张卡通图来简化 GPU 的工作模型：
 
 1. **从 HBM（高带宽内存）发送输入到计算核心**
