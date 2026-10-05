@@ -503,7 +503,7 @@ ARC-AGI-1:
    <img src="https://raw.githubusercontent.com/datawhalechina/diy-llm/main/docs/zh/chapter12/images/12-33-ARC-AGI-2评测示意图.png" />
    <p>图12.33 ARC-AGI-2评测示意图</p>
  </div>
- 
+
 它捕捉了一种更纯粹的、类似人类的模式识别和泛化能力，是早期 AGI 研究的重要基准。传统 LLM 在此任务上表现极差，但最新 o1/o3 这类 reasoning 模型已展现出一定能力。
 
 ## 12.8 安全基准
