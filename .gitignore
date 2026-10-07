@@ -18,6 +18,11 @@ Thumbs.db
 
 # dependencies
 node_modules/
+.venv/
+.uv-cache/
+.uv-bootstrap/
+.pip-cache/
+*.egg-info/
 
 # VitePress cache + build output
 docs/.vitepress/cache/
